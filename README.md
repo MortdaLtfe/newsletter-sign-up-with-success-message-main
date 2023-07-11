@@ -4,11 +4,11 @@
 ## - JavaScript
 ## - Tailwind
 
-## [Live Page](https://mortdaltfe.github.io/newsletter-sign-up-with-success-message-main/)
+## -- [Live Page](https://mortdaltfe.github.io/newsletter-sign-up-with-success-message-main/dist/index.html)
 
 
 
 
-**Programmed By [Mortda](https://github.com/MortdaLtfe)**
+** --- Programmed By [Mortda](https://github.com/MortdaLtfe)**
 
-**Designed By [Front-end Mentor](https://www.frontendmentor.io/)**
+** --- Designed By [Front-end Mentor](https://www.frontendmentor.io/)**
