@@ -11,4 +11,4 @@
 
 
 **Programmed By [Mortda](https://github.com/MortdaLtfe)**
-**Designed By [Front-end Mentor](frontendmentor.io)**
+**Designed By [Front-end Mentor](https://www.frontendmentor.io/)**
