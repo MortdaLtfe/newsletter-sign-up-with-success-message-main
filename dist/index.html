@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="output.css">
+
+  <link rel="stylesheet" href="./public/css/style.css">
+
+</head>
+
+<body>
+
+
+  <div class="cont">
+
+    <div class="main flex flex-col-reverse md:flex-row md:justify-between">
+
+      <div class="flex flex-col my-6 px-5 space-y-5 md:px-12 md:py-16 md:m-0 md:space-y-8">
+        <h2 class="">Stay updated!</h2>
+        <p style="margin:10px 0 0 ;" class="text-md md:text-sm leading-7 md:leading-5 ">Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul class="flex space-y-5 flex-col md:space-y-3">
+          <li class="flex space-x-2 items-center">
+            <img class="m-0" src="./public/assets/images/icon-list.svg" alt=""> <span class="text-px">Product discovery and building what matters</span>
+          </li>
+          <li class="flex space-x-2 items-center ">
+            <img class="m-0" src="./public/assets/images/icon-list.svg" alt=""> <span class="text-px">Measuring to ensure updates are a success</span>
+          </li>
+          <li class="flex space-x-2 items-center ">
+            <img class="m-0" src="./public/assets/images/icon-list.svg" alt=""> <span class="text-px">And much more!</span>
+          </li>
+        </ul>
+
+        <form action="./public/success.html" class="md:space-y-2" method="post">
+          <div class="w-full flex flex-row justify-between items-center">
+            <h5 class="text-xs font-bold my-5">Email address</h5>
+            <span id="res" class="res text-xs text-right">valId Email require</span>
+          </div>
+          <input id="email" class="w-full py-3 md:py-2 text-sm md:text-md" type="text" placeholder="email@company.com" />
+          <input id="button" class="py-3 w-full" type="submit" value="Subscribe to monthly newsletter">
+        </form>
+      </div>
+
+      <div>
+        <img class="w-full block md:hidden" src="./public/assets/images/illustration-sign-up-desktop.svg" alt="">
+
+        <img class="hidden md:py-3 md:px-5 md:block" id="img" src="./public/assets/images/illustration-sign-up-desktop.svg" alt="" height="">
+
+      </div>
+    </div>
+
+  </div>
+  <script src="./public/js/main.js"></script>
+</body>
+
+</html>
